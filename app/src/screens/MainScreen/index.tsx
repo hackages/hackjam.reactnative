@@ -38,7 +38,7 @@ class MainScreen extends Component<IProps, IState> {
           <TextInput
             onChangeText="this.filter"
             placeholder="search"
-            style={styles.searchField}/>    
+            style={styles.searchField}/>
             <UserList
               persons={persons}
               renderRow={(person: IPerson) =>   
