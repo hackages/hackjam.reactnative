@@ -2,6 +2,10 @@
 
 Pour cette hackjam vous allez devoir fixer notre app React native.
 
+## Challenge
+- Fixer tous les bugs présents dans l'app
+- Implémenter le filtre sur la liste
+
 Pour ceci vous allez avoir besoin de quelques informations
 - [Images en react native](https://facebook.github.io/react-native/docs/image.html)
 - [TextInput](https://facebook.github.io/react-native/docs/textinput.html)
