@@ -1,0 +1,36 @@
+{
+	"name": "app",
+	"version": "0.0.1",
+	"private": true,
+	"main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+	"scripts": {
+		"expo": "react-native-scripts start",
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest",
+		"ios": "react-native run-ios",
+		"android": "react-native run-android",
+		"link": "react-native link",
+		"prebuild": "rm -rf src/build/",
+		"build": "tsc",
+		"watch": "npm run build -- --watch"
+	},
+	"dependencies": {
+		"expo": "^15.1.2",
+		"firebase": "^3.7.2",
+		"react": "~15.4.1",
+		"react-native": "0.42.0",
+		"react-native-scripts": "^0.0.22",
+		"react-navigation": "^1.0.0-beta.7",
+		"uuid": "^3.0.1"
+	},
+	"devDependencies": {
+		"babel-jest": "19.0.0",
+		"babel-preset-react-native": "1.9.1",
+		"expo": "^15.0.0",
+		"jest": "19.0.2",
+		"react-test-renderer": "~15.4.1"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}
