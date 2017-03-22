@@ -5,18 +5,18 @@ Tonight you're gonna learn to work with react native and firebase using exponent
 ## Getting started
 Install [expo xde](https://github.com/exponent/xde)
 
+```
+git clone thisrepo.git
+cd app/
+yarn install
+# Start hacking ;)
+```
+
 Add your app in the ide
 ```bash
 npm run watch # inside your app's directory
 ```
 
-```
-git clone thisrepo.git
-cd app/
-yarn install
-yarn expo
-# Start hacking ;)
-```
 
 ## Tasks
 - Fix the bugs
