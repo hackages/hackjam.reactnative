@@ -3,10 +3,6 @@ import { View, Text, Image, Button, StyleSheet } from 'react-native';
 
 import { IPerson } from '../../types/interfaces';
 
-import ProfilePicture from './ProfilePicture';
-import Name from './Name';
-import UIDButton from './UIDButton';
-
 interface IProps {
   navigation: any,
 };
