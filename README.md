@@ -6,8 +6,8 @@ Tonight you're gonna learn to work with react native and firebase using exponent
 Install [expo xde](https://github.com/exponent/xde)
 
 ```
-git clone thisrepo.git
-cd app/
+git clone this repo.git
+cd hackjam.reactnative/
 yarn install
 # Start hacking ;)
 ```
