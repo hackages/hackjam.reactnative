@@ -1,0 +1,15 @@
+{
+  "name": "app",
+  "dependencies": {
+    "firebase": "registry:npm/firebase#3.0.5+20160723033700",
+    "react": "registry:npm/react#15.0.1+20170104200836",
+    "react-native": "registry:dt/react-native#0.42.0+20170314015828",
+    "react-redux": "registry:npm/react-redux#4.4.0+20160614222153",
+    "redux-thunk": "registry:npm/redux-thunk#2.0.0+20160525185520",
+    "uuid": "registry:npm/uuid#3.0.1+20161206160008"
+  },
+  "globalDependencies": {
+    "node": "registry:dt/node#7.0.0+20170310052549",
+    "redux": "registry:dt/redux#3.5.2+20160703092728"
+  }
+}
