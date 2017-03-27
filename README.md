@@ -6,15 +6,12 @@ Tonight you're gonna learn to work with react native and firebase using exponent
 Install [expo xde](https://github.com/exponent/xde)
 
 ```
-git clone this repo.git
+git clone this https://github.com/hackages/hackjam.reactnative.git
 cd hackjam.reactnative/
 yarn install
-# Start hacking ;)
-```
-
-Add your app in the ide
-```bash
-npm run watch # inside your app's directory
+# Add hackjam.reactnative in the expo IDE
+typings install
+yarn watch # inside your hackjam.reactnative's directory
 ```
 
 
@@ -29,9 +26,10 @@ You should edit <strong>app/src/screens/MainScreen/index</strong>
 In this component we provide as props your firebase user containing:
 ```json
 { 
-  uid: yourFirebaseUid, 
-    displayName: theNameYouChoose,
-    photoURL: aRandomAvatar 
+  "user": {
+    "uid": "yourFirebaseUid", 
+    "displayName": "theNameYouChoose"
+  }
 }
 ```
 
